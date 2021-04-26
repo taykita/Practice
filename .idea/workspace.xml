@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9300b5f-13ae-4b23-9079-a8a0e3d58aa1" name="Default Changelist" comment="Add unit test in Maven build" />
+    <list default="true" id="e9300b5f-13ae-4b23-9079-a8a0e3d58aa1" name="Default Changelist" comment="Fix calc class">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619460277108</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add unit test in Maven build">
+      <created>1619460492375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619460492375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix calc class">
+      <created>1619460754720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619460754720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +154,7 @@
     <MESSAGE value="Broke calculator2" />
     <MESSAGE value="Fix compile error" />
     <MESSAGE value="Add unit test in Maven build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add unit test in Maven build" />
+    <MESSAGE value="Fix calc class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix calc class" />
   </component>
 </project>
