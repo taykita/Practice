@@ -3,7 +3,7 @@ package com.mycompany.app;
 public class Calculator {
 
     public double sum(double first, double second) {
-        return first -3 second;
+        return first - second;
     }
 
     public double sub(double first, double second) {
