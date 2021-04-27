@@ -33,8 +33,10 @@ public class Calculator {
 
     public double[] quadEquate(double quadPoly, double poly, double cnst) {
         double D = disc(quadPoly, poly, cnst);
-        if (D >= 0) {
+        if (D > 0) {
             return calcRoots(quadPoly, poly, Math.sqrt(D));
+        } if (D == 0) {
+            return new double[]{root(quadPoly, poly, Math.sqrt(D))};
         } else {
             return null;
         }

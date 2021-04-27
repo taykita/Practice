@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9300b5f-13ae-4b23-9079-a8a0e3d58aa1" name="Default Changelist" comment="Fix calc class">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb4cf4b0-1cdc-4086-b00f-c177c7b1c3de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mycompany/app/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mycompany/app/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/app/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/app/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mycompany/app/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1riCi1q8b5PrgTpE08FAycJk9BL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1rk49K7iJu7Omo0169ep0tc58B4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,12 +45,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunManager" selected="Maven.my-app [clean,install]">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="CalculatorTest.quadEquate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
       <extension name="coverage">
         <pattern>
@@ -40,7 +58,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.mycompany.app" />
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="quadEquate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,69 +91,24 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="Maven.my-app [clean,install]" />
+      <item itemvalue="JUnit.CalculatorTest.quadEquate" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest.quadEquate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9300b5f-13ae-4b23-9079-a8a0e3d58aa1" name="Default Changelist" comment="" />
-      <created>1619449649510</created>
+      <changelist id="eb4cf4b0-1cdc-4086-b00f-c177c7b1c3de" name="Default Changelist" comment="" />
+      <created>1619506601526</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619449649510</updated>
+      <updated>1619506601526</updated>
     </task>
-    <task id="LOCAL-00001" summary="fix pom.xml">
-      <created>1619456808977</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619456808977</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Broke calculator">
-      <created>1619458646423</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619458646423</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Broke calculator2">
-      <created>1619458782821</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619458782821</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Fix compile error">
-      <created>1619459332447</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619459332447</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add unit test in Maven build">
-      <created>1619460277108</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619460277108</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add unit test in Maven build">
-      <created>1619460492375</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619460492375</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Fix calc class">
-      <created>1619460754720</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1619460754720</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,14 +121,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix pom.xml" />
-    <MESSAGE value="Broke calculator" />
-    <MESSAGE value="Broke calculator2" />
-    <MESSAGE value="Fix compile error" />
-    <MESSAGE value="Add unit test in Maven build" />
-    <MESSAGE value="Fix calc class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix calc class" />
   </component>
 </project>

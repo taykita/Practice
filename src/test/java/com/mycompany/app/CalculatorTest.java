@@ -2,43 +2,80 @@ package com.mycompany.app;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalculatorTest {
     private Calculator calc = new Calculator();
 
     @Test
-    void sum() {
-        assertEquals(5 + 5, calc.sum(5, 5));
-        assertEquals(5.5 + 5.5, calc.sum(5.5, 5.5));
+    void intSum() {
+        double exp = 5 + 5;
+        double act = calc.sum(5, 5);
+        assertEquals(exp, act);
     }
 
     @Test
-    void sub() {
-        assertEquals(5 - 5, calc.sub(5, 5));
-        assertEquals(5.5 - 5.5, calc.sub(5.5, 5.5));
+    void doubleSum() {
+        double exp = 5.5 + 5.5;
+        double act = calc.sum(5.5, 5.5);
+        assertEquals(exp, act);
     }
 
     @Test
-    void mul() {
-        assertEquals(5 * 5, calc.mul(5, 5));
-        assertEquals(5.5 * 5.5, calc.mul(5.5, 5.5));
+    void intSub() {
+        double exp = 5 - 5;
+        double act = calc.sub(5, 5);
+        assertEquals(exp, act);
     }
 
     @Test
-    void div() {
-        assertEquals(5 / 5, calc.div(5, 5));
-        assertEquals(5.5 / 5.5, calc.div(5.5, 5.5));
+    void doubleSub() {
+        double exp = 5.5 - 5.5;
+        double act = calc.sub(5.5, 5.5);
+        assertEquals(exp, act);
+    }
+
+    @Test
+    void intMul() {
+        double exp = 5 * 5;
+        double act = calc.mul(5, 5);
+        assertEquals(exp, act);
+    }
+
+    @Test
+    void doubleMul() {
+        double exp = 5.5 * 5.5;
+        double act = calc.mul(5.5, 5.5);
+        assertEquals(exp, act);
+    }
+
+    @Test
+    void intDiv() {
+        double exp = 5 * 5;
+        double act = calc.mul(5, 5);
+        assertEquals(exp, act);
+    }
+
+    @Test
+    void doubleDiv() {
+        double exp = 5.5 * 5.5;
+        double act = calc.mul(5.5, 5.5);
+        assertEquals(exp, act);
     }
 
     @Test
     void quadEquate() {
-        // Корни уравнения x^2 + 3x - 4 = 0 равны 1 и -4
-        assertEquals(true, Arrays.equals(new double[]{1, -4}, calc.quadEquate(1, 3, -4)));
+        double[] exp = new double[]{1, -4};
+        double[] act = calc.quadEquate(1, 3, -4);
+        assertArrayEquals(exp, act);
 
-        // Корней в уравнении x^2 - x + 3 = 0 нет
-        assertEquals(null, calc.quadEquate(1, -1, 3));
+        exp = new double[]{-1};
+        act = calc.quadEquate(1, 2, 1);
+        assertArrayEquals(exp, act);
+
+        exp = null;
+        act = calc.quadEquate(1, -1, 3);
+        assertArrayEquals(exp, act);
     }
 }
