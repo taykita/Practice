@@ -120,7 +120,7 @@ public class MapTest {
         assertTrue(isEqual);
     }
 
-    // ?????
+    // Как это правильно протестировать?
     @Test
     public void entrySetTest() {
         Set<Map.Entry<String, Integer>> entrySet = testMap.entrySet();
